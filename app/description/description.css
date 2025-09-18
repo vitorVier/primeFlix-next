@@ -8,6 +8,8 @@
 }
 
 .filme-info h1 {
+    font-size: 24px;
+    font-weight: bold;
     margin: 14px 0;
 }   
 
@@ -20,11 +22,15 @@
 }
 
 .filme-info h3 {
+    font-size: 18px;
     margin-top: 14px;
 }
 
 .filme-info span {
+    font-size: 15px;
+    font-weight: 400;
     margin: 8px 0;
+    color: #333;
 }
 
 .area-buttons button {
@@ -32,22 +38,29 @@
     font-size: 20px;
     border: 0;
     outline: none;
-    padding: 12px;
+    padding: 8px 20px;
     border-radius: 4px;
     cursor: pointer;
     transition: all .3s;
 }
 
+.btn-save {
+    background-color: #047700;
+    color: #fff;
+}
+.btn-save:hover {
+    background-color: #199715;
+    color: #fff;
+}
+
+.btn-trailer {
+    background-color: rgb(139, 2, 2);
+    color: #fff;
+}
+.btn-trailer:hover {
+    filter: brightness(1.5);
+}
+
 .area-buttons a {
     text-decoration: none;
-    color: #000;
-}
-
-.area-buttons button:hover {
-    background-color: brown;
-    color: #fff;
-}
-
-.area-buttons a:hover {
-    color: #fff;
 }

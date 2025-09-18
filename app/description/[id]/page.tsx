@@ -69,8 +69,11 @@ function Description() {
             <span>{filme.overview}</span>
             <strong>Avaliação: {filme.vote_average} / 10</strong>
             <div className="area-buttons">
-                <button onClick={saveMovie}>Salvar</button>
-                <button>
+                <button onClick={saveMovie} className="btn-save">
+                    Salvar
+                </button>
+
+                <button className="btn-trailer">
                     <a target="blank" rel="external" href={`https://youtube.com/results?search_query=${filme.title} Trailer`}>
                         Trailer
                     </a>
