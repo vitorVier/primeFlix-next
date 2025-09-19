@@ -4,8 +4,10 @@ import './header.css';
 function Header() {
     return(
         <header>
-            <Link className='Logo' href='/' >PRIME<span>FLIX</span></Link>
-            <Link className='favoritos' href='/favorites' >Meus Filmes</Link>
+            <div>
+                <Link className='Logo' href='/' >PRIME<span>FLIX</span></Link>
+                <Link className='favoritos' href='/favorites' >Meus Filmes</Link>
+            </div>
         </header>
     );
 }

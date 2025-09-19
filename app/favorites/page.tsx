@@ -43,9 +43,9 @@ export default function Favorites() {
                             <span>{item.title}</span>
                             <section>
                                 <img src={`https://image.tmdb.org/t/p/original/${item.poster_path}`} alt={item.title} />
-                                <div>
-                                    <Link href={`/filme/${item.id}`}>Ver detalhes</Link>
-                                    <button id='exlcuir' onClick={() => excluirFilme(item.id)}>Excluir</button>
+                                <div className='actions'>
+                                    <Link href={`/description/${item.id}`}>Ver detalhes</Link>
+                                    <button id='excluir' onClick={() => excluirFilme(item.id)}>Excluir</button>
                                 </div>
                             </section>  
                         </article>
