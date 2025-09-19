@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
   --background: #121212;
   --foreground: #ffffff;
   --card-bg: #1e1e1e;
   --btn-bg: #116febcc;
   --btn-bg-hover: #116feb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
 body {
